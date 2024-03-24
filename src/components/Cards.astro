@@ -1,7 +1,12 @@
-<div class="flex flex-wrap gap-10 mx-auto w-screen justify-center mt-14">
+---
+import { Image } from 'astro:assets';
+import card_1 from '/src/img/card_1.jpg';
+---
+
+<div id="#services" class="flex flex-wrap gap-10 mx-auto w-screen justify-center mt-14">
     <div class="max-w-xs bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         
-            <img class="rounded-t-lg" src="/src/img/card_1.jpg" alt="Implantologia" />
+            <Image class="rounded-t-lg" src={card_1} alt="Implantologia" />
         
         <div class="p-5">
             
