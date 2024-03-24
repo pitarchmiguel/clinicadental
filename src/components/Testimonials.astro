@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets';
-import placeholder from '/src/img/male-placeholder.jpeg';
+import holder from '/src/img/male-placeholder.jpeg';
+---
 
 <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -12,7 +13,7 @@ import placeholder from '/src/img/male-placeholder.jpeg';
             <div class="overflow-hidden bg-white rounded-md shadow">
                 <div class="px-8 py-12">
                     <div class="relative w-24 h-24 mx-auto">
-                        <img class="relative object-cover w-24 h-24 mx-auto rounded-full" src="/src/img/male-placeholder.jpeg" alt="" />
+                        <Image class="relative object-cover w-24 h-24 mx-auto rounded-full" src={holder} alt="" />
                         <div class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7">
                             <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
@@ -31,7 +32,7 @@ import placeholder from '/src/img/male-placeholder.jpeg';
             <div class="overflow-hidden bg-white rounded-md shadow">
                 <div class="px-8 py-12">
                     <div class="relative w-24 h-24 mx-auto">
-                        <Image class="relative object-cover w-24 h-24 mx-auto rounded-full" src={placeholder} alt="" />
+                        <Image class="relative object-cover w-24 h-24 mx-auto rounded-full" src={holder} alt="" />
                         <div class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7">
                             <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
@@ -50,7 +51,7 @@ import placeholder from '/src/img/male-placeholder.jpeg';
             <div class="overflow-hidden bg-white rounded-md shadow">
                 <div class="px-8 py-12">
                     <div class="relative w-24 h-24 mx-auto">
-                        <Image class="relative object-cover w-24 h-24 mx-auto rounded-full" src={placeholder} alt="" />
+                        <Image class="relative object-cover w-24 h-24 mx-auto rounded-full" src={holder} alt="" />
                         <div class="absolute top-0 right-0 flex items-center justify-center bg-blue-600 rounded-full w-7 h-7">
                             <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
