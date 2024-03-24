@@ -5,31 +5,17 @@ import Hero from '@components/Hero.astro';
 import Section from '@components/Section.astro';
 import Cards from '@components/Cards.astro';
 import Footer from '@components/Footer.astro';
+import Testimonials from '@components/Testimonials.astro';
+import About from '@components/About.astro';
 ---
 
 <Layout title="Espejo Igual - Clinica Dental">
 		<Nav />
 		<Hero />
-		<Section />
 		<Cards />
-		<section class=" bg-slate-100 mt-20 dark:bg-gray-900">
-			<div class="py-12 px-4 mx-auto max-w-screen-xl sm:py-12 lg:px-6">
-				<div class="mx-auto max-w-screen-sm text-center">
-					<h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Quienes somos</h2>
-					<p class="font-light text-gray-500 dark:text-gray-400 md:text-lg">Conocenos más a fondo.</p>
-				</div>
-				<div class="flex p-12 gap-5">
-					<div class="place-items-center">
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eligendi eius consequuntur libero eaque, dolores aut nihil laborum vel iste vero magnam excepturi adipisci expedita mollitia minima iusto earum autem.</p>
-						<div class="w-32 h-32 justify-center text-center rounded-full bg-slate-400">ed</div>
-					</div>
-
-					<div>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eligendi eius consequuntur libero eaque, dolores aut nihil laborum vel iste vero magnam excepturi adipisci expedita mollitia minima iusto earum autem.</p>
-					</div>
-				</div>
-			</div>
-		</section>
+		<About />
+		<Section />
+		<Testimonials />
 		<Footer />
 		
 </Layout>
